@@ -57,9 +57,7 @@
   <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
   <tr mat-row *matRowDef="let user; columns: displayedColumns"></tr>
 </table>
-</div>
-
-<div *ngIf="selectedUser">
+<div *ngIf="selectedUser" class="popup-table">
   <div style="position: relative;">
     <button mat-icon-button (click)="hideSessions()" style="position: absolute; top: 0; right: 0;">
       <mat-icon>close_fullscreen</mat-icon>
@@ -85,3 +83,6 @@
   </table>
   </div>
 </div>
+
+</div>
+

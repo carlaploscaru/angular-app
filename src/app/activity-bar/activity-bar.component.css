@@ -1,7 +1,7 @@
 mat-form-field{
     position: fixed;
-    top: 38%;
-    left: 90%;
+    top: 7%;
+    left: 33%;
     /* transform: translate(-50%, -70%); */
     transform: translate(-50%, 90%);
     text-align: center;
@@ -17,3 +17,7 @@ mat-form-field{
     width: auto;
   }
   
+  mat-form-field{
+    border-top: 15px solid #AEBBFD;
+    border-radius: 5px;
+  }

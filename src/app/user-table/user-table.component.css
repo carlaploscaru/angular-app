@@ -39,4 +39,10 @@
     right: 10px;
   }
   
-  
+  .popup-table {
+    position: absolute;
+    top: 60%;
+    left: 55%;
+    z-index: 9999;
+    /* your popup table styles */
+  }
