@@ -22,6 +22,12 @@ export class MentorComponent {
     { name: 'Mihai Popescu', email: 'mihai.popescu@example.com', joinDate: '2021-02-15', status: 'Student', attendance:'yes', session: [
       { session: 'session1', grade: '8', comment: 'Great work!' },
       { session: 'session2', grade: '9', comment: 'Excellent work' },
+      { session: 'session3', grade: '9', comment: 'Excellent work' },
+      { session: 'session4', grade: '9', comment: 'Excellent work' },
+      { session: 'session5', grade: '9', comment: 'Excellent work' },
+      { session: 'session6', grade: '9', comment: 'Excellent work' },
+      { session: 'session7', grade: '9', comment: 'Excellent work' },
+      { session: 'session8', grade: '9', comment: 'Excellent work' },
     ], },
 
     { name: 'Maria Smith', email: 'maria.smith@example.com', joinDate: '2021-01-01', status: 'Student', attendance:'yes', session: [
