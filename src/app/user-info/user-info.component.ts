@@ -16,6 +16,11 @@ export class UserInfoComponent implements OnInit{
 
     ngOnInit():void{
     }
+    showEditProfilePopup = false;
+
+    openEditProfilePopup() {
+      this.showEditProfilePopup = true;
+    }
 }
 
 // import { HttpClient } from '@angular/common/http';

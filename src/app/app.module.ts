@@ -29,6 +29,7 @@ import {MatDatepickerModule} from '@angular/material/datepicker';
 import {MatCardModule} from '@angular/material/card';
 import {MatNativeDateModule} from '@angular/material/core';
 import { TeamCardNameComponent } from './team-card-name/team-card-name.component';
+import { EditProfileComponent } from './edit-profile/edit-profile.component';
 
 
 @NgModule({
@@ -44,7 +45,8 @@ import { TeamCardNameComponent } from './team-card-name/team-card-name.component
     UserTableComponent,
     ActivityBarComponent,
     CalendarComponent,
-    TeamCardNameComponent
+    TeamCardNameComponent,
+    EditProfileComponent
   ],
   imports: [
     BrowserModule,
