@@ -1,0 +1,29 @@
+.card {
+    background-color:#AEBBFD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 47px;
+    padding: 2px;
+    border-top: 3px solid #AEBBFD;
+    border-radius: 8px;
+    transform: translateY(-30%);
+    position: absolute;
+    top: 20%;
+    left: 46%;
+  }
+  
+  .card-title {
+    font-size: 15px; 
+  }
+
+
+  mat-card.active {
+    /* Styles for active state */
+    background-color: rgb(16, 139, 188);
+    color: rgb(5, 2, 2);
+  }
+  
+  .card:hover .card-content::after {
+    content: "7,15";
+  }

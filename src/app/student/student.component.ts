@@ -14,6 +14,7 @@ export class StudentComponent {
     { name: 'Maria Smith', email: 'maria.smith@example.com', joinDate: '2021-01-01', status: 'Student' },
     { name: 'Andreea Negru', email: 'andreea.negru@example.com', joinDate: '2021-02-15', status: 'Student' },
   ];
+  
 
 }
 

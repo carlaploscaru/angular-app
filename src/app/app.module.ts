@@ -30,6 +30,11 @@ import {MatCardModule} from '@angular/material/card';
 import {MatNativeDateModule} from '@angular/material/core';
 import { TeamCardNameComponent } from './team-card-name/team-card-name.component';
 import { EditProfileComponent } from './edit-profile/edit-profile.component';
+import { AddToActivityComponent } from './add-to-activity/add-to-activity.component';
+import { MatInputModule } from '@angular/material/input';
+import { MatDialogModule } from '@angular/material/dialog';
+import { AddTeamComponent } from './add-team/add-team.component';
+import { TeamGradeComponent } from './team-grade/team-grade.component';
 
 
 @NgModule({
@@ -46,7 +51,10 @@ import { EditProfileComponent } from './edit-profile/edit-profile.component';
     ActivityBarComponent,
     CalendarComponent,
     TeamCardNameComponent,
-    EditProfileComponent
+    EditProfileComponent,
+    AddToActivityComponent,
+    AddTeamComponent,
+    TeamGradeComponent
   ],
   imports: [
     BrowserModule,
@@ -63,8 +71,8 @@ import { EditProfileComponent } from './edit-profile/edit-profile.component';
     MatDatepickerModule,
     MatCardModule,
     MatNativeDateModule,
-   
-
+    MatInputModule,
+    MatDialogModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
